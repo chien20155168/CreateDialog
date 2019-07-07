@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Toast;
 
 //TODO b4
-public class MainActivity extends AppCompatActivity implements mFragmentDialog.NotificeDialog {
+public class MainActivity extends AppCompatActivity implements MFragmentDialog.NotificeDialog {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements mFragmentDialog.N
     }
 
     public void showDialogFragment() {
-        mFragmentDialog dialog = new mFragmentDialog();
+        MFragmentDialog dialog = new MFragmentDialog();
         FragmentManager fragmentManager = getSupportFragmentManager();
         dialog.show(fragmentManager, "Dialog1");
     }

@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.Toast;
 
-public class mFragmentDialog extends DialogFragment implements View.OnClickListener {
+public class MFragmentDialog extends DialogFragment implements View.OnClickListener {
     //TODO b3
     interface NotificeDialog{
         void onLogin();
